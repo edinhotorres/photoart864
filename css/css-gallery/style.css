@@ -139,7 +139,7 @@ a:active {
     height: 100%;
     margin: auto;
     z-index: 9999;
-    background: url("../../files/img/loader.gif") center no-repeat transparent;
+    background: url("../../files/gallery-files/img/loader.gif") center no-repeat transparent;
     background-size: 100px;
     overflow: none;
     display: none;
