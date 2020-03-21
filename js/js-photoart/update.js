@@ -32,3 +32,8 @@ function updateCasal(){
     document.querySelector('.casal-description').innerHTML=casalDescription;
     document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-4B-7D-E2-61-ec/ec-imghd-1.jpg)';
 }
+
+function updateFeminino(){
+    document.querySelector('.feminino-description').innerHTML=femininoDescription;
+    document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-2C-7A-E1-E3-ef/ef-imghd-1.jpg)';
+}
