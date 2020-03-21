@@ -25,4 +25,10 @@ function alteraDescricoes(){
 
 function updateInfantil(){
     document.querySelector('.infantil-description').innerHTML=infantilDescription;
+    document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-45-78-c5-68-ii/ei-imghd-1.jpg)';
+}
+
+function updateCasal(){
+    document.querySelector('.casal-description').innerHTML=casalDescription;
+    document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-4B-7D-E2-61-ec/ec-imghd-1.jpg)';
 }
