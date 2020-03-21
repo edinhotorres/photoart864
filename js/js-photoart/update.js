@@ -25,15 +25,26 @@ function alteraDescricoes(){
 
 function updateInfantil(){
     document.querySelector('.infantil-description').innerHTML=infantilDescription;
-    document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-45-78-c5-68-ii/ei-imghd-1.jpg)';
+    // document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-45-78-c5-68-ii/ei-imghd-1.jpg)';
 }
 
 function updateCasal(){
     document.querySelector('.casal-description').innerHTML=casalDescription;
-    document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-4B-7D-E2-61-ec/ec-imghd-1.jpg)';
+    // document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-4B-7D-E2-61-ec/ec-imghd-1.jpg)';
 }
 
 function updateFeminino(){
     document.querySelector('.feminino-description').innerHTML=femininoDescription;
-    document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-2C-7A-E1-E3-ef/ef-imghd-1.jpg)';
+    // document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-2C-7A-E1-E3-ef/ef-imghd-1.jpg)';
 }
+
+function updateGestante(){
+    document.querySelector('.gestante-description').innerHTML=gestanteDescription;
+    // document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-2C-1A-9B-3B-eg/eg-imghd-2.jpg)';
+}
+
+function updateFestasAniversario(){
+    document.querySelector('.festas-aniversario-description').innerHTML=festasAniversarioDescription;
+    // document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-2C-7A-E1-E3-ef/ef-imghd-1.jpg)';
+}
+
