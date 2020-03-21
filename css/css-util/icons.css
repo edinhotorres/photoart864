@@ -1,0 +1,36 @@
+/*Define o estilo dos ícones de redes sociais
+Author: Edson Torres
+License: Open Source, you can use it wherever you want! */
+/* https://iconify.design/ - caso seja necessário obter/criar novos*/
+
+
+/******** Social Icons ********/
+.icon-instagram {
+    content: url('https://api.iconify.design/ion:logo-instagram.svg?color=gray&width=30&height=30');
+    vertical-align: -0.125em;
+}
+.icon-instagram:hover {
+    content: url('https://api.iconify.design/ion:logo-instagram.svg?color=%23892b6b&width=30&height=30');
+    vertical-align: -0.125em;
+}
+.icon-facebook {
+    content: url('https://api.iconify.design/ion:logo-facebook.svg?color=gray&width=30&height=30');
+    vertical-align: -0.125em;
+}
+.icon-facebook:hover {
+    content: url('https://api.iconify.design/ion:logo-facebook.svg?color=%233b5998&width=30&height=30');
+    vertical-align: -0.125em;
+}
+.icon-whatsapp {
+    content: url('https://api.iconify.design/ion:logo-whatsapp.svg?color=gray&width=30&height=30');
+    vertical-align: -0.125em;
+}
+.icon-whatsapp:hover {
+    content: url('https://api.iconify.design/ion:logo-whatsapp.svg?color=%230c8b32&width=30&height=30');
+    vertical-align: -0.125em;
+}
+
+.icon-close-gallery-photo {
+    content: url('https://api.iconify.design/jam:close-circle-f.svg?color=%23383838&height=40');
+    vertical-align: -0.125em;
+}
