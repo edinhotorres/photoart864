@@ -1,4 +1,41 @@
+
+/*Caixa de mensagem - estilos*/
+
+@media (min-width: 1000px){
+    .container {
+        width: 50%;
+        text-align: center;
+    }
+}
+.msg-box {
+    display: flexbox;
+    background-image: url('../../files/imgs/film-bg.png');
+    background-size: 100%;
+    text-align:  center;
+}
+.title-text-box{
+    text-align: center;
+    font-size: 1.35em;
+}
+.central-msg>h2,.central-msg>h3 {
+    text-align: center;
+}
 .central-msg>h3{
     font-family: 'Marvel', sans-serif;
+    font-weight: 800;
+}
+.text-msg-box>h3{
+    font-family: 'Marvel', sans-serif;
     font-weight: 400;
+    padding: 0% 10% 0% 10%;
+}
+.divider, .divider-small{
+    margin: 0% 5% 0% 5%;
+    background-color: black;
+}
+.divider {
+    height: 20px;
+}
+.divider-small {
+    height: 10px;
 }
