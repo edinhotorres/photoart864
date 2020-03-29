@@ -2,7 +2,7 @@
 /*Caixa de mensagem - estilos*/
 
 @media (min-width: 1000px){
-    .container {
+    .contato-container {
         width: 50%;
         text-align: center;
     }
@@ -21,11 +21,12 @@
     text-align: center;
 }
 .central-msg>h3{
+    /* font-family: 'Mali', cursive; */
     font-family: 'Marvel', sans-serif;
-    font-weight: 800;
 }
 .text-msg-box>h3{
     font-family: 'Marvel', sans-serif;
+    /* font-family: 'Mali', cursive; */
     font-weight: 400;
     padding: 0% 10% 0% 10%;
 }
