@@ -8,7 +8,6 @@
         text-align: center;
     }
 }
-
 .msg-box {
     display: flexbox;
     background-image: url('../../files/imgs/film-bg.png');
@@ -28,6 +27,7 @@
 .foto-text-sobre{
     font-size: 1.75em;
     text-align: left;
+    line-height: 1.5;
 }
 
 .align-right {
