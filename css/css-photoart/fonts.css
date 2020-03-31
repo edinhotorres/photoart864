@@ -1,28 +1,38 @@
 
 /*Caixa de mensagem - estilos*/
 
+/* mantém a div container do centro (versao PC)*/
 @media (min-width: 1000px){
-    .contato-container {
+    .contato-container, .sobre-container{
         width: 50%;
         text-align: center;
     }
 }
+
 .msg-box {
     display: flexbox;
     background-image: url('../../files/imgs/film-bg.png');
     background-size: 100%;
     text-align:  center;
 }
+
 .title-text-box{
     text-align: center;
     font-size: 1.35em;
 }
-.central-msg>h2,.central-msg>h3 {
+.central-msg>h2,.central-msg>h3, .foto-text-sobre {
     text-align: center;
-}
-.central-msg>h3{
-    /* font-family: 'Mali', cursive; */
     font-family: 'Marvel', sans-serif;
+}
+
+.foto-text-sobre{
+    font-size: 1.75em;
+    text-align: left;
+}
+
+.align-right {
+    float: right; /*Define que a imagem fique à esquerda do texto*/
+    margin: 0px 10px 2px 0px; /*margem up-right-down-left*/
 }
 .text-msg-box>h3{
     font-family: 'Marvel', sans-serif;
