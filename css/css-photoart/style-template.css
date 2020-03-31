@@ -63,3 +63,15 @@ a:active,a:hover{
 .last-element{
    text-align: center;
 }
+
+/******** Contact Form *********/
+.box-contact {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.form-contact{
+   width: 70%;
+}
+
+
