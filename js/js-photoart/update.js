@@ -9,6 +9,7 @@ const infantilDescription = "Assim como os pequenos vivem brincando e correndo, 
 const familiaDescription = "Viva em família e eternize os mais lindos momentos!";
 const festasAniversarioDescription = "O tempo voa! Existem datas especiais que precisam de registros para futuras recordações!";
 const femininoDescription = "Força, alegria e expressão de feminilidade!";
+const restauracaoDescription = "A restauração e digitalização de fotografias é para quem precisa recuperar e guardar, para sempre, as suas recordações!"
 
 /*Funcionamento de mecânica do FadeIn*/
 let i=0;
@@ -24,6 +25,7 @@ function alteraDescricoes(){
     document.querySelector('.familia-description').innerHTML=familiaDescription;
     document.querySelector('.festas-aniversario-description').innerHTML=festasAniversarioDescription;
     document.querySelector('.feminino-description').innerHTML=femininoDescription;
+    document.querySelector('.restauracao-description').innerHTML=restauracaoDescription;
 }
 
 function updateInfantil(){
@@ -53,11 +55,16 @@ function updateGestante(){
 function updateFestasAniversario(){
     document.querySelector('.festas-aniversario-description').innerHTML=festasAniversarioDescription;
     fadeElementIn(document.querySelector('.fadein'));
-    
+
     // document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-2C-7A-E1-E3-ef/ef-imghd-1.jpg)';
 }
 function updateFamilia(){
     document.querySelector('.familia-description').innerHTML=familiaDescription;
+    fadeElementIn(document.querySelector('.fadein'));
+    // document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-2C-7A-E1-E3-ef/ef-imghd-1.jpg)';
+}
+function updateRestauracao(){
+    document.querySelector('.restauracao-description').innerHTML=restauracaoDescription;
     fadeElementIn(document.querySelector('.fadein'));
     // document.querySelector('#viewer').style.backgroundImage = 'url(../../strg/00-2C-7A-E1-E3-ef/ef-imghd-1.jpg)';
 }
@@ -84,4 +91,6 @@ function fadeElementIn(elemento) {
         setTimeout(() => fadeElementIn(elemento), 8); // chame esta funcao novamente em 40 milissegundos
     }
 }
+
+
 
