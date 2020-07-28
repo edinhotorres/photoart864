@@ -11,6 +11,22 @@
 
       gtag('config', 'UA-162085811-1');
     </script>
+    
+    <!-- PROMO -->
+    <!-- loading whatsapp function -->
+    <script src="js/formWpp.js"></script>
+    <!-- jquery -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- chamada da função -->
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#exampleModal').modal('show');
+    });
+    </script> 
+    <!-- END PROMO -->
+
     <title>PhotoArt864 | por Maitê Cosmi</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -67,6 +83,35 @@
           </div>
         </section>
         <section id="content" class="pt-40 pb-40 bg-fff">
+          <!-- PROMO CODE -->
+
+          <!-- Button trigger modal -->
+          <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Launch demo modal
+          </button> -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title" id="exampleModalLabel">Promoção - Mês dos Pais!</h2>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                <img src="strg/promo/mes_dos_pais.jpeg" width="100%" alt="" srcset="">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Não, obrigado!</button>
+                  <button type="button" class="btn btn-primary" onclick="contactWppPromo()">Quero!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <div class="container">
             <a href="ensaio-casal.html">
               <div class="col-sm-4 text-center" >

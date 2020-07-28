@@ -21,3 +21,8 @@ function contactWpp() {
         window.open(link)
     } 
 }
+
+function contactWppPromo() {
+    link = "https://api.whatsapp.com/send?phone=5527997450320&text=Olá, Maitê. Quero saber mais sobre a promoção do mês dos pais.";
+    window.open(link)
+}
